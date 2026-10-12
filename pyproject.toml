@@ -7,3 +7,6 @@ dependencies = [
     "mistralai-workflows>=3.10",
     "mistralai>=2.0",
 ]
+
+[tool.uv]
+package = false
