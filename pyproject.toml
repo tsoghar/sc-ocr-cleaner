@@ -1,0 +1,9 @@
+[project]
+name = "sc-ocr-cleaner"
+version = "0.1.0"
+description = "OCR + filtrage du texte grec et de l'apparat critique (éditions Sources Chrétiennes)"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-workflows>=3.10",
+    "mistralai>=2.0",
+]
